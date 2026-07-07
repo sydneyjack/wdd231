@@ -1,0 +1,83 @@
+@media only screen and (min-width:768px){
+
+header{
+grid-template-columns:70px auto auto;
+padding:1rem 2rem;
+}
+
+.logo img{
+width:55px;
+height:55px;
+}
+
+.logo span{
+font-size:1.6rem;
+}
+
+#menu{
+display:none;
+}
+
+nav{
+display:block;
+grid-column:auto;
+justify-self:end;
+}
+
+.navigation{
+display:flex;
+gap:.5rem;
+}
+
+.navigation li{
+border:none;
+}
+
+.navigation a{
+padding:.75rem 1.2rem;
+border-radius:6px;
+}
+
+main{
+display:grid;
+grid-template-columns:2fr 1fr;
+gap:1.5rem;
+padding:2rem;
+}
+
+h1{
+grid-column:1/3;
+text-align:left;
+margin-bottom:0;
+}
+
+.about{
+grid-column:1;
+}
+
+.photo{
+grid-column:2;
+}
+
+.certificate{
+grid-column:1/3;
+}
+
+#courses{
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+}
+
+footer{
+padding:2rem;
+}
+
+.social img{
+width:40px;
+transition:transform .3s;
+}
+
+.social img:hover{
+transform:scale(1.1);
+}
+
+}
