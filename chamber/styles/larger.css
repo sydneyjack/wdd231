@@ -1,0 +1,68 @@
+/* ===========================
+   Large Screen Styles
+=========================== */
+
+@media only screen and (min-width: 768px) {
+
+    /* ---------- Header ---------- */
+
+    header {
+        grid-template-columns: auto auto;
+        padding: 1rem 2rem;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    nav {
+        display: block;
+        grid-column: auto;
+        justify-self: end;
+    }
+
+    .navigation {
+        display: flex;
+        gap: .5rem;
+    }
+
+    .navigation li {
+        border: none;
+    }
+
+    .navigation a {
+        padding: .75rem 1.25rem;
+        border-radius: 5px;
+    }
+
+    /* ---------- Directory Grid ---------- */
+
+    .grid {
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    }
+
+    /* ---------- List View ---------- */
+
+    .list .member-card {
+        display: grid;
+        grid-template-columns: 220px 1fr;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .list .member-card img {
+        display: none;
+    }
+
+    /* ---------- Buttons ---------- */
+
+    .view-buttons {
+        justify-content: flex-end;
+    }
+
+    /* ---------- Footer ---------- */
+
+    footer {
+        padding: 2rem;
+    }
+}

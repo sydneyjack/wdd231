@@ -1,0 +1,67 @@
+{
+  "members": [
+    {
+      "name": "Rivers Tech",
+      "address": "12 Aba Road, Port Harcourt",
+      "phone": "+234 803 111 2233",
+      "website": "https://www.riverstech.com",
+      "image": "rivers-tech.webp",
+      "membership": 3,
+      "industry": "Technology"
+    },
+    {
+      "name": "Garden City Hotel",
+      "address": "45 GRA Phase 2, Port Harcourt",
+      "phone": "+234 805 222 3344",
+      "website": "https://www.gardencityhotel.com",
+      "image": "garden-city-hotel.webp",
+      "membership": 3,
+      "industry": "Hospitality"
+    },
+    {
+      "name": "Royal Taste Restaurant",
+      "address": "18 Stadium Road, Port Harcourt",
+      "phone": "+234 806 333 4455",
+      "website": "https://www.royaltaste.com",
+      "image": "royal-taste.webp",
+      "membership": 2,
+      "industry": "Restaurant"
+    },
+    {
+      "name": "PH Pharmacy",
+      "address": "8 Rumuola Junction, Port Harcourt",
+      "phone": "+234 807 444 5566",
+      "website": "https://www.phpharmacy.com",
+      "image": "ph-pharmacy.webp",
+      "membership": 2,
+      "industry": "Healthcare"
+    },
+    {
+      "name": "Capital Bank",
+      "address": "30 Aba Express Road, Port Harcourt",
+      "phone": "+234 808 555 6677",
+      "website": "https://www.capitalbank.com",
+      "image": "capital-bank.webp",
+      "membership": 3,
+      "industry": "Banking"
+    },
+    {
+      "name": "Fresh Market",
+      "address": "16 Ada George Road, Port Harcourt",
+      "phone": "+234 809 666 7788",
+      "website": "https://www.freshmarket.com",
+      "image": "fresh-market.webp",
+      "membership": 1,
+      "industry": "Retail"
+    },
+    {
+      "name": "Bonny Marine Services",
+      "address": "Bonny Island, Rivers State",
+      "phone": "+234 810 777 8899",
+      "website": "https://www.bonnymarine.com",
+      "image": "bonny-marine.webp",
+      "membership": 3,
+      "industry": "Marine Services"
+    }
+  ]
+}
