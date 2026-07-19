@@ -84,24 +84,19 @@
         box-shadow: 0 6px 15px rgba(0,0,0,.15);
     }
 
-    /* ---------- Footer ---------- */
+  /* ---------- Footer ---------- */
 
-    footer {
-        padding: 2rem;
-    }
+footer {
+    padding: 2rem;
+}
 
-    .social img {
-        width: 40px;
-        transition: transform .3s ease;
-    }
-
-    .social img:hover {
-        transform: scale(1.1);
-    }
-
+.social img {
+    width: 40px;
+    transition: transform .3s ease;
 }
 
 .social img:hover {
     transform: scale(1.1);
-    transition: transform .3s ease;
+}
+
 }

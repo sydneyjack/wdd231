@@ -38,8 +38,9 @@ header {
     width: 55px;
 }
 
-.logo h2 {
+.logo span {
     font-size: 1.3rem;
+    font-weight: 700;
 }
 
 /* --------------------
@@ -197,17 +198,6 @@ footer {
     color: white;
     padding: 2rem 1rem;
     text-align: center;
-}
-
-.social {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    margin-bottom: 1rem;
-}
-
-.social img {
-    width: 35px;
 }
 
 /* Social Icons */
