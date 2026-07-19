@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Port Harcourt Chamber of Commerce | Home</title>
+
+    <meta name="description" content="Welcome to the Port Harcourt Chamber of Commerce. Discover local businesses, events, opportunities, and resources that help our business community grow.">
+
+    <meta name="author" content="Sydney Sobomabo">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Port Harcourt Chamber of Commerce">
+    <meta property="og:description" content="Supporting business growth in Port Harcourt through networking, events, and partnerships.">
+    <meta property="og:image" content="https://sydneyjack.github.io/wdd231/chamber/images/logo.webp">
+    <meta property="og:url" content="https://sydneyjack.github.io/wdd231/chamber/index.html">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/spotlight.js" defer></script>
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+
+        <img src="images/logo.webp"
+             alt="Port Harcourt Chamber Logo"
+             width="60"
+             height="60">
+
+        <span>Port Harcourt Chamber</span>
+
+    </div>
+
+    <button id="menu" aria-label="Menu"></button>
+
+    <nav id="nav">
+
+        <ul class="navigation">
+
+            <li><a href="index.html" class="active">Home</a></li>
+
+            <li><a href="directory.html">Directory</a></li>
+
+            <li><a href="#">Discover</a></li>
+
+            <li><a href="#">Join</a></li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+<main>
+
+    <!-- Hero -->
+
+    <section class="hero">
+
+        <img src="images/hero.webp"
+             alt="Port Harcourt business district">
+
+        <div class="hero-content">
+
+            <h1>Port Harcourt Chamber of Commerce</h1>
+
+            <p>
+                Connecting businesses. Creating opportunities. Building a stronger community.
+            </p>
+
+            <a href="#" class="cta-button">Join the Chamber</a>
+
+        </div>
+
+    </section>
+
+    <!-- Main Content -->
+
+    <div class="home-grid">
+
+        <!-- Events -->
+
+        <section class="events">
+
+            <h2>Current Events</h2>
+
+            <article>
+
+                <h3>Business Networking Summit</h3>
+
+                <p>
+                    Meet entrepreneurs, investors, and business leaders from across Rivers State at this month's networking summit.
+                </p>
+
+            </article>
+
+            <article>
+
+                <h3>SME Training Workshop</h3>
+
+                <p>
+                    Learn practical marketing, finance, and digital business skills from experienced professionals.
+                </p>
+
+            </article>
+
+        </section>
+
+        <!-- Weather -->
+
+        <section class="weather">
+
+            <h2>Weather</h2>
+
+            <div id="current-weather"></div>
+
+            <div id="forecast"></div>
+
+        </section>
+
+        <!-- Spotlights -->
+
+        <section class="spotlights">
+
+            <h2>Member Spotlights</h2>
+
+            <div id="spotlight-container"></div>
+
+        </section>
+
+    </div>
+
+</main>
+
+<footer>
+
+   <div class="social">
+
+    <a href="https://web.facebook.com/sobomabo.sydney" target="_blank" rel="noopener">
+        <img src="images/facebook.svg" alt="Facebook">
+    </a>
+
+    <a href="https://linkedin.com/in/sobomabo-sydney" target="_blank" rel="noopener">
+        <img src="images/linkedin.svg" alt="LinkedIn">
+    </a>
+
+    <a href="https://x.com/Daviss1444358" target="_blank" rel="noopener">
+        <img src="images/twitter-x.svg" alt="X">
+    </a>
+
+</div>
+
+    <p>
+        Port Harcourt Chamber of Commerce
+        <br>
+        25 Aba Road
+        <br>
+        Port Harcourt, Rivers State
+        <br>
+        info@phchamber.org
+        <br>
+        +234 800 123 4567
+    </p>
+
+    <p>
+        &copy;
+        <span id="currentyear"></span>
+        Sydney Sobomabo | WDD 231
+    </p>
+
+    <p id="lastModified"></p>
+
+</footer>
+
+</body>
+</html>
