@@ -88,7 +88,8 @@ nav.open {
 
 .navigation a:hover,
 .navigation .active {
-    background: rgba(255,255,255,.15);
+    background-color: #8d0d16;
+    color: #fff;
 }
 
 /* --------------------
